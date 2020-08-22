@@ -90,7 +90,8 @@ class _TodoAddPageState extends State<TodoAddPage> {
             child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
-                  Text(_text,
+                  Text(
+                    _text,
                     style: TextStyle(color: Colors.blue),
                   ),
                   TextField(
