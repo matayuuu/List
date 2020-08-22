@@ -105,6 +105,7 @@ class _TodoAddPageState extends State<TodoAddPage> {
                     },
                   ),
                   Container(
+                    // 横幅いっぱいに広げる
                     width: double.infinity,
                     child: RaisedButton(
                       color: Colors.blue,
@@ -118,7 +119,6 @@ class _TodoAddPageState extends State<TodoAddPage> {
                     ),
                   ),
                   Container(
-                    // 横幅いっぱいに広げる
                     width: double.infinity,
                     //キャンセルボタン
                     child: FlatButton(
